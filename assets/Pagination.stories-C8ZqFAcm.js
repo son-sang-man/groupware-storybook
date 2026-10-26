@@ -1,0 +1,13 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{t}from"./jsx-runtime-DeHZSEgm.js";var n,r,i;function a(){return(a=e((()=>{n=`_pagination_py6r3_1`,r=`_chevron_py6r3_44`,i={pagination:n,chevron:r}})))()}function o({direction:e}){return(0,c.jsx)(`svg`,{className:i.chevron,viewBox:`0 0 24 24`,"aria-hidden":`true`,children:(0,c.jsx)(`path`,{d:e===`previous`?`m15 18-6-6 6-6`:`m9 18 6-6-6-6`})})}function s({page:e,totalPages:t,onChange:n,label:r=`페이지 이동`,className:a}){let s=Math.max(1,Math.floor(t)),l=Math.min(s,Math.max(1,Math.floor(e))),u=Array.from({length:s},(e,t)=>t+1);return(0,c.jsxs)(`nav`,{className:[i.pagination,a].filter(Boolean).join(` `),"aria-label":r,children:[(0,c.jsx)(`button`,{type:`button`,"aria-label":`이전 페이지`,disabled:l===1,onClick:()=>n(l-1),children:(0,c.jsx)(o,{direction:`previous`})}),u.map(e=>(0,c.jsx)(`button`,{type:`button`,"aria-current":e===l?`page`:void 0,"aria-label":`${e}페이지`,onClick:()=>n(e),children:e},e)),(0,c.jsx)(`button`,{type:`button`,"aria-label":`다음 페이지`,disabled:l===s,onClick:()=>n(l+1),children:(0,c.jsx)(o,{direction:`next`})})]})}var c;function l(){return(l=e((()=>{a(),c=t(),s.__docgenInfo={description:``,methods:[],displayName:`Pagination`,props:{page:{required:!0,tsType:{name:`number`},description:``},totalPages:{required:!0,tsType:{name:`number`},description:``},label:{required:!1,tsType:{name:`string`},description:``,defaultValue:{value:`'페이지 이동'`,computed:!1}},className:{required:!1,tsType:{name:`string`},description:``}}}})))()}var u,d,f,p,m,h;function g(){return(g=e((()=>{l(),u=t(),{useArgs:d}=__STORYBOOK_MODULE_PREVIEW_API__,{fn:f}=__STORYBOOK_MODULE_TEST__,p={title:`공통/Pagination`,component:s,args:{page:1,totalPages:4,onChange:f()},parameters:{docs:{description:{component:`현재 페이지와 이전·다음 경계를 표시합니다. URL·데이터 요청 동기화는 소비자가 소유합니다.`}}},argTypes:{page:{control:`number`,description:`현재 페이지입니다. 1 이상 totalPages 이하로 정규화합니다.`},totalPages:{control:`number`,description:`전체 페이지 수입니다.`},onChange:{control:!1,action:`페이지 변경`,description:`페이지 index가 바뀔 때 호출됩니다.`},label:{control:`text`,description:`nav 접근성 이름입니다.`},className:{control:!1}}},m={render:e=>{let[{page:t},n]=d();return(0,u.jsx)(s,{...e,page:t,onChange:t=>{e.onChange?.(t),n({page:t})}})}},h=[`Default`],m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:`{
+  render: args => {
+    const [{
+      page
+    }, updateArgs] = useArgs<typeof args>();
+    return <Pagination {...args} page={page} onChange={next => {
+      (args.onChange as ((page: number) => void) | undefined)?.(next);
+      updateArgs({
+        page: next
+      });
+    }} />;
+  }
+}`,...m.parameters?.docs?.source}}}})))()}g();export{m as Default,h as __namedExportsOrder,p as default};
