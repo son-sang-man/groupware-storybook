@@ -1,0 +1,22 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{i as t,n,u as r}from"./blocks-BjqAEfwT.js";import{t as i}from"./jsx-runtime-DeHZSEgm.js";import{i as a,r as o}from"./react-BXJ34t_g.js";import{a as s,i as c}from"./form-fields-Bw3baRjA.js";import{i as l,t as u}from"./input-text-field-hlKaI4uV.js";var d,f,p;function m(){return(m=e((()=>{d=(e,t,n=`text`)=>({description:e,control:n,table:{type:{summary:t},defaultValue:{summary:`없음`}}}),f={children:{control:!1,description:`필수. 실제 입력 컴포넌트를 JSX로 전달합니다. 값·이벤트는 자식에서 설정합니다.`,table:{type:{summary:`ReactNode`},defaultValue:{summary:`없음`}}},label:{...d(`필수. 연결할 입력의 항목명.`,`string`),type:{name:`string`,required:!0}},id:d(`입력 연결 ID. 생략 시 자식 id → name → 자식 name → 고유 ID.`,`string`),name:d(`자식 입력에 전달할 native name.`,`string`),required:d(`필수 표시와 자식 입력의 필수 상태 연결.`,`boolean`,`boolean`),description:d(`오류 상태에도 유지하는 필드 설명.`,`string`),error:{...d(`오류 표시 여부. 오류 문구는 errorMessage로 설정합니다.`,`boolean`,`boolean`),table:{type:{summary:`boolean`},defaultValue:{summary:`false`}}},errorMessage:d(`error=true일 때 표시할 문구. 생략하면 항목명 기반 기본 오류.`,`string`)},p=[`children`,`label`,`id`,`name`,`required`,`description`,`error`,`errorMessage`]})))()}function h(e){let r={code:`code`,h1:`h1`,h2:`h2`,p:`p`,pre:`pre`,...a(),...e.components};return(0,_.jsxs)(_.Fragment,{children:[(0,_.jsx)(r.h1,{id:`formfields`,children:`FormFields`}),`
+`,(0,_.jsx)(r.p,{children:`FormField는 children으로 받은 입력에 항목명·필수 표시·설명·오류를 연결하는 틀입니다. 입력값·이벤트·입력 유형과 화면의 열 배치는 소비자가 소유합니다.`}),`
+`,(0,_.jsx)(r.h2,{id:`동작-예제`,children:`동작 예제`}),`
+`,(0,_.jsx)(n,{of:x,withToolbar:!0}),`
+`,(0,_.jsx)(r.h2,{id:`props`,children:`Props`}),`
+`,(0,_.jsx)(t,{of:x,include:p}),`
+`,(0,_.jsx)(r.p,{children:`id를 생략하면 직접 자식의 id → 필드 name → 직접 자식의 name → React 고유 ID 순서로 결정합니다. error 기본값은 false이며 나머지 선택 Props에는 기본값이 없습니다.`}),`
+`,(0,_.jsx)(r.h2,{id:`사용법`,children:`사용법`}),`
+`,(0,_.jsx)(r.p,{children:`값과 이벤트는 자식에 전달합니다. FormField에 value·checked·options·onChange 등을 전달하지 않습니다.`}),`
+`,(0,_.jsx)(r.pre,{children:(0,_.jsx)(r.code,{className:`language-tsx`,children:`const [value, setValue] = useState('')
+<FormField name="companyName" label="거래처명" required
+  error={hasError} errorMessage="거래처명을 확인해 주세요.">
+  <InputTextField value={value} onChange={setValue} />
+</FormField>
+`})}),`
+`,(0,_.jsx)(r.p,{children:`Default의 Controls는 실제 FormField Props만 제공합니다. 자식 입력을 직접 작성해 값이 유지되는지 확인하고, 자식의 세부 설정은 각 Form 메뉴에서 확인합니다. 자식 이벤트 → 소비자의 상태 갱신 → 자식 value 반영 흐름이며 FormField에는 이벤트가 없습니다.`}),`
+`,(0,_.jsx)(r.p,{children:`배치는 화면의 grid·외곽 요소가 담당합니다. RadioGroup·CheckboxGroup의 여러 선택지는 소비 화면에서 별도 fieldset/legend로 묶고, 옵션 이름과 비활성 상태는 각 options에서 지정합니다. FormField에 group·span·hint를 추가하지 않습니다.`}),`
+`,(0,_.jsx)(r.h2,{id:`상태동작`,children:`상태·동작`}),`
+`,(0,_.jsx)(r.p,{children:`error=true이면 오류 상태와 errorMessage를 연결합니다. errorMessage가 없으면 “항목명 형식을 확인해 주세요”를 표시합니다. error=false이면 errorMessage가 있어도 오류를 표시하지 않습니다. 설명은 오류와 함께 유지합니다.`}),`
+`,(0,_.jsx)(r.p,{children:`required는 필수 표시와 입력 속성을 연결합니다. disabled·readOnly·numberOnly·maxLength 등 입력 동작은 children의 Props입니다. 업무 검증·저장·서버 오류 판단과 오류 요약은 소비 feature가 담당합니다.`}),`
+`,(0,_.jsx)(r.h2,{id:`접근성`,children:`접근성`}),`
+`,(0,_.jsx)(r.p,{children:`label과 입력 ID, required, aria-invalid, 설명·오류의 aria-describedby를 연결하고 자식의 기존 설명 ID·이벤트를 보존합니다. 직접 children인 기본 HTML input/select/textarea도 연결하며, 사용자 정의 컨트롤은 공개 useFormFieldControl(props) 훅을 사용합니다.`})]})}function g(e={}){let{wrapper:t}={...a(),...e.components};return t?(0,_.jsx)(t,{...e,children:(0,_.jsx)(h,{...e})}):h(e)}var _;function v(){return(v=e((()=>{_=i(),o(),r(),C(),m()})))()}var y,b,x,S;function C(){return(C=e((()=>{s(),u(),m(),v(),y=i(),b={title:`공통/FormFields`,component:c,args:{id:`example-field`,name:`exampleField`,label:`항목명`,description:`입력할 내용을 안내합니다.`,required:!1,error:!1,errorMessage:`입력한 내용을 확인해 주세요.`,children:(0,y.jsx)(l,{placeholder:`내용을 입력하세요`})},argTypes:f,parameters:{docs:{page:g,source:{type:`dynamic`,transform:(e,{args:t})=>{let n=[`id`,`name`,`label`,`description`,`errorMessage`].filter(e=>t[e]!==void 0).map(e=>`${e}={${JSON.stringify(t[e])}}`);return t.required&&n.push(`required`),n.push(`error={${!!t.error}}`),`import { FormField } from '@/shared/ui/form-fields'\nimport { InputTextField } from '@/shared/ui/form/input-text-field'\n\n<FormField ${n.join(` `)}>\n  <InputTextField placeholder="내용을 입력하세요" />\n</FormField>`}}}}},x={},S=[`Default`],x.parameters={...x.parameters,docs:{...x.parameters?.docs,source:{originalSource:`{}`,...x.parameters?.docs?.source}}}})))()}C();export{x as Default,S as __namedExportsOrder,b as default};

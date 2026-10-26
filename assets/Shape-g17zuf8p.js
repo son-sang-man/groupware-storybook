@@ -1,0 +1,4 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{s as t,u as n}from"./blocks-BjqAEfwT.js";import{t as r}from"./jsx-runtime-DeHZSEgm.js";import{i,r as a}from"./react-BXJ34t_g.js";import{r as o,t as s}from"./TokenDefinitions-Dw6jWb57.js";function c(e){let n={h1:`h1`,p:`p`,...i(),...e.components};return(0,u.jsxs)(u.Fragment,{children:[(0,u.jsx)(t,{title:`Token/Shape`}),`
+`,(0,u.jsx)(n.h1,{id:`shape`,children:`Shape`}),`
+`,(0,u.jsx)(n.p,{children:`기본 선 두께, 컨트롤·표면·Overlay·배지의 모서리와 깊이를 표현하는 그림자입니다. 컴포넌트의 의미에 맞는 표면 역할을 선택합니다.`}),`
+`,(0,u.jsx)(s,{category:`shape`})]})}function l(e={}){let{wrapper:t}={...i(),...e.components};return t?(0,u.jsx)(t,{...e,children:(0,u.jsx)(c,{...e})}):c(e)}var u;function d(){return(d=e((()=>{u=r(),a(),n(),o()})))()}d();export{l as default};

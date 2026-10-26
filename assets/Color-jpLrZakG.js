@@ -1,0 +1,5 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{s as t,u as n}from"./blocks-BjqAEfwT.js";import{t as r}from"./jsx-runtime-DeHZSEgm.js";import{i,r as a}from"./react-BXJ34t_g.js";import{r as o,t as s}from"./TokenDefinitions-Dw6jWb57.js";function c(e){let n={h1:`h1`,p:`p`,...i(),...e.components};return(0,u.jsxs)(u.Fragment,{children:[(0,u.jsx)(t,{title:`Token/Color`}),`
+`,(0,u.jsx)(n.h1,{id:`color`,children:`Color`}),`
+`,(0,u.jsx)(n.p,{children:`글자·테두리·표면·대표 행동과 의미별 피드백 색상입니다. Hover·Active는 조작 가능한 컨트롤에 사용하고, 상태를 색만으로 전달하지 않습니다.`}),`
+`,(0,u.jsx)(s,{category:`color`}),`
+`,(0,u.jsx)(n.p,{children:`disabled는 비활성 토큰을 우선하고 focus는 공통 초점 링을 사용합니다. 모든 전경·배경 조합의 대비 통과를 이 색상 견본만으로 보장하지 않습니다. 실제 조합은 디자인 기준과 소비 컴포넌트에서 확인합니다.`})]})}function l(e={}){let{wrapper:t}={...i(),...e.components};return t?(0,u.jsx)(t,{...e,children:(0,u.jsx)(c,{...e})}):c(e)}var u;function d(){return(d=e((()=>{u=r(),a(),n(),o()})))()}d();export{l as default};

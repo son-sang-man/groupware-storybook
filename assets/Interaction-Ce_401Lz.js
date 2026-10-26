@@ -1,0 +1,6 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{s as t,u as n}from"./blocks-BjqAEfwT.js";import{t as r}from"./jsx-runtime-DeHZSEgm.js";import{i,r as a}from"./react-BXJ34t_g.js";import{r as o,t as s}from"./TokenDefinitions-Dw6jWb57.js";function c(e){let n={h1:`h1`,p:`p`,...i(),...e.components};return(0,u.jsxs)(u.Fragment,{children:[(0,u.jsx)(t,{title:`Token/Interaction`}),`
+`,(0,u.jsx)(n.h1,{id:`interaction`,children:`Interaction`}),`
+`,(0,u.jsx)(n.p,{children:`컨트롤 기준 높이·키보드 초점 링·업무 화면 최소 너비 정의입니다.`}),`
+`,(0,u.jsx)(s,{category:`interaction`}),`
+`,(0,u.jsx)(n.p,{children:`control-height-medium은 모든 입력의 높이를 강제하는 값이 아닙니다. 현재 입력·선택은 최소 42px, textarea는 최소 92px이며 Button md는 38px입니다. 개별 컴포넌트의 승인 규격을 함께 확인합니다.`}),`
+`,(0,u.jsx)(n.p,{children:`layout-min-width는 PC 업무 화면의 최소 너비 정책입니다. Storybook 문서나 단일 컴포넌트 견본에 1920px 폭을 강제하지 않습니다.`})]})}function l(e={}){let{wrapper:t}={...i(),...e.components};return t?(0,u.jsx)(t,{...e,children:(0,u.jsx)(c,{...e})}):c(e)}var u;function d(){return(d=e((()=>{u=r(),a(),n(),o()})))()}d();export{l as default};
