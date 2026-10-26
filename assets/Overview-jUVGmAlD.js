@@ -1,4 +1,4 @@
-import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{s as t,u as n}from"./blocks-BjqAEfwT.js";import{t as r}from"./jsx-runtime-DeHZSEgm.js";import{i,r as a}from"./react-BXJ34t_g.js";import{r as o,t as s}from"./TokenDefinitions-Dw6jWb57.js";function c(e){let n={h1:`h1`,h2:`h2`,p:`p`,...i(),...e.components};return(0,u.jsxs)(u.Fragment,{children:[(0,u.jsx)(t,{title:`Token/정의`}),`
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{s as t,u as n}from"./blocks-BjqAEfwT.js";import{t as r}from"./jsx-runtime-DeHZSEgm.js";import{i,r as a}from"./react-BXJ34t_g.js";import{r as o,t as s}from"./TokenDefinitions-BGiUps2F.js";function c(e){let n={h1:`h1`,h2:`h2`,p:`p`,...i(),...e.components};return(0,u.jsxs)(u.Fragment,{children:[(0,u.jsx)(t,{title:`Token/정의`}),`
 `,(0,u.jsx)(n.h1,{id:`token-정의`,children:`Token 정의`}),`
 `,(0,u.jsx)(n.p,{children:`토큰은 색상·글꼴·간격처럼 여러 컴포넌트가 함께 사용하는 디자인 값을 의미 있는 이름으로 정의한 CSS 변수입니다.`}),`
 `,(0,u.jsx)(n.h2,{id:`기준-원본`,children:`기준 원본`}),`

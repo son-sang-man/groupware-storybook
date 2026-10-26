@@ -1,4 +1,4 @@
-import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{s as t,u as n}from"./blocks-BjqAEfwT.js";import{t as r}from"./jsx-runtime-DeHZSEgm.js";import{i,r as a}from"./react-BXJ34t_g.js";import{r as o,t as s}from"./TokenDefinitions-Dw6jWb57.js";function c(e){let n={h1:`h1`,p:`p`,...i(),...e.components};return(0,u.jsxs)(u.Fragment,{children:[(0,u.jsx)(t,{title:`Token/Interaction`}),`
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{s as t,u as n}from"./blocks-BjqAEfwT.js";import{t as r}from"./jsx-runtime-DeHZSEgm.js";import{i,r as a}from"./react-BXJ34t_g.js";import{r as o,t as s}from"./TokenDefinitions-BGiUps2F.js";function c(e){let n={h1:`h1`,p:`p`,...i(),...e.components};return(0,u.jsxs)(u.Fragment,{children:[(0,u.jsx)(t,{title:`Token/Interaction`}),`
 `,(0,u.jsx)(n.h1,{id:`interaction`,children:`Interaction`}),`
 `,(0,u.jsx)(n.p,{children:`컨트롤 기준 높이·키보드 초점 링·업무 화면 최소 너비 정의입니다.`}),`
 `,(0,u.jsx)(s,{category:`interaction`}),`
